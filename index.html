@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/bower_components/spectre.css/dist/spectre.css">
+    <link rel="stylesheet" href="/build/resources/SASS/dom.css">
+    
+</head>
+<body>
+    <div class="container grid-lg">
+    <header class="navbar columns">
+      <section class="navbar-section col-xs-1">
+        <button class="btn s-circle">
+            <svg viewBox="0 0 32 32" role="img" aria-labelledby="menu-icon-title"><title id="menu-icon-title">Menu</title><defs><path d="M14 11.977a.99.99 0 0 1-.996.984l-10 .039A.99.99 0 0 1 2 12.023a.99.99 0 0 1 .996-.984l10-.039a.99.99 0 0 1 1.004.977zm0-4a.99.99 0 0 1-.996.984L3.004 9A.99.99 0 0 1 2 8.023a.99.99 0 0 1 .996-.984l10-.039A.99.99 0 0 1 14 7.977zm0-4a.99.99 0 0 1-.996.984L3.004 5A.99.99 0 0 1 2 4.023a.99.99 0 0 1 .996-.984l10-.039A.99.99 0 0 1 14 3.977z" id="a1"/></defs><g fill="none" fill-rule="evenodd"><use fill="#0B75B7" xlink:href="#a1" transform="translate(8 8)"/><circle stroke="#005285" class="btnRing" cx="16" cy="16" r="15.5"/></g></svg>  </section>
+      <section class="column col-6 col-xs-9 col-mx-auto">
+        
+        <!-- centered logo or brand -->
+        <form class="navbar__searchform columns col-gapless">
+            <div class="column col-1 navbar__searchicon">
+                <label for="searchBox" ><span class="text-assistive">search</span><svg role="img" aria-labelledby="search-icon-title" viewBox="0 0 32 32" height="32" width="32"><title id="search-icon-title">Search</title><defs><path d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2A6 6 0 1 1 6 0a6 6 0 0 1 0 12zm4.707-1.293a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1-1.414 1.414l-2.829-2.829a1 1 0 0 1 0-1.414z" id="a2"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#ffffff" cx="16" cy="16" r="15.5"/><use fill="#0B75B7" xlink:href="#a2" transform="translate(8 8)"/></g></svg></label> 
+            </div>
+            <div class="form-group column col-11">
+                <input class="form-input" type="text" id="searchBox" placeholder="Search processes, workers, tags">
+              </div>
+        </form>
+      </section>
+      <section class="navbar-section">
+            <button class="btn s-circle">
+                <svg viewBox="0 0 32 32" role="img" aria-labelledby="more-icon-title"><title id="more-icon-title">More</title><g fill="none" fill-rule="evenodd"><path d="M11 17.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="#0B75B7"/><circle stroke="#005285" class="btnRing" cx="16" cy="16" r="15.5"/></g></svg>        </button>
+      </section>
+    </header>
+    <section class="columns content">
+        <ul class="column col-8 col-md-12 col-mx-auto processList">
+            
+            
+            <li class="process">
+                <section class="process__Details">
+                        <div class="form-group">
+                                <label class="form-label" for="input-example-1">Name</label>
+                                <input class="form-input" type="text" name="input-example-1" placeholder="Name" value="Order coffee beans">
+                            </div>
+                            <p class="process__Description">Submit Amazon order for 2kg Lavazza qualita rossa</p>
+                            <section class="process__progress">
+                                <button class="btn s-circle showProgressDetail">
+                                        <svg viewBox="0 0 32 32" width="2rem" height="2rem" aria-labelled-by="view-icon-title"><title id="view-icon-title">View progress detail</title><defs><path d="M8 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0-7C4.9 3 2.6 4.6 1 8c1.6 3.4 3.9 5 7 5s5.4-1.6 7-5C13.3 4.6 11 3 8 3zm0-2c4.1 0 7.1 2.3 9 6.6v.8C15 12.7 12 15 8 15S.9 12.7-1 8.4v-.8C1 3.3 4 1 8 1z" id="a4"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#005285" cx="16" cy="16" r="15.5"/><use fill="#0B75B7" xlink:href="#a4" transform="translate(8 8)"/></g></svg>
+                                </button>
+                                
+                                <div class="process__progressBar">
+                                    <label for="processProgress">Progress: </label>
+                                    <progress id="processProgress"  max="100" value="70">70%</progress>
+                                </div>
+                            </section>
+                            <ul class="process__progressDetails">
+                                    <li>Tasks in queue : <span class="progressItem">6</span></li>
+                                    <li>Tasks completed : <span class="progressItem">18</span></li>
+                                    <li>Average task time : <span class="progressItem">12s</span></li>
+                                    <li>Time remaining : <span class="progressItem">01:12</span></li>
+                                </ul>
+                </section>
+                <section class="processStatus">
+                    <p class="processStatus__label">Workers Assigned</p>
+                    <div class="processStatus__workersControls">
+                            <button class="btn btn-sm s-circle">-</button>
+                            <span class="assignedWorkers">0</span>/<span class="totalWorkers">25</span>
+                            <button class="btn btn-sm s-circle">+</button>
+                    </div>
+                    <div class="processStatus__priority">
+                        <ol class="processPriority">
+                            <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                            <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                            <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                        </ol>
+                    </div>
+                    <div class="processStatus__status unassigned">
+                        <div class="popover popover-bottom">
+                        <button 
+                        class="btn btn-md m-circle" 
+                        type="button" 
+                        aria-label="assign workers to process"
+                        aria-haspopup="true"
+                        >
+                        <svg width="16" height="16"viewBox="0 0 32 32" aria-labelled-by="settings-icon-title"><title id="settings-icon-title">settings</title><defs><path d="M20.8 8.4l1.6-1.6a1 1 0 0 1 1.4 0l1.4 1.4c.4.4.4 1 0 1.4l-1.6 1.6a9 9 0 0 1 1.2 2.8H27c.6 0 1 .4 1 1v2c0 .6-.4 1-1 1h-2.2a9 9 0 0 1-1.2 2.8l1.6 1.6c.4.4.4 1 0 1.4l-1.4 1.4a1 1 0 0 1-1.4 0l-1.6-1.6a9 9 0 0 1-2.8 1.2V27c0 .6-.4 1-1 1h-2a1 1 0 0 1-1-1v-2.2a9 9 0 0 1-2.8-1.2l-1.6 1.6a1 1 0 0 1-1.4 0l-1.4-1.4a1 1 0 0 1 0-1.4l1.6-1.6A9 9 0 0 1 7.2 18H5a1 1 0 0 1-1-1v-2c0-.6.4-1 1-1h2.2c.3-1 .6-2 1.2-2.8L6.8 9.6a1 1 0 0 1 0-1.4l1.4-1.4a1 1 0 0 1 1.4 0l1.6 1.6A9 9 0 0 1 14 7.2V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v2.2c1 .3 2 .6 2.8 1.2zM16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" id="a"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#ffffff" cx="16" cy="16" r="15.5"/><use fill="#ffffff" xlink:href="#a"/></g></svg>
+                        </button>
+                        <div class="assignmentListPopover c-hand popover-container ">
+                                <ul>
+                                    <li>Auto-assign</li>
+                                    <li>Select Workers</li>
+                                    <li>Schedule</li>
+                                    <li>Archive</li>
+                                </ul>
+                            </div>&nbsp;<span>Unassigned</span>
+                        </div>
+                    </div>
+                </section>
+                <button class="btn s-circle process__Action">
+                    <svg viewBox="0 0 32 32" role="img" aria-labelled-by="play-icon-title"><title id="play-icon-title">Start Process</title><g fill="none" fill-rule="evenodd"><path d="M22.32 15.18L13.57 9.092a1 1 0 0 0-1.571.82v12.173a1 1 0 0 0 1.571.821l8.749-6.086a1 1 0 0 0 0-1.642z" fill="#434a4f"/><circle stroke="#434a4f" cx="16" cy="16" r="15.5"/></g></svg>
+                </button>
+                
+            </li>            
+                
+            
+                        
+                        <li class="process">
+                            <section class="process__Details">
+                                    <div class="form-group">
+                                            <label class="form-label" for="input-example-1">Name</label>
+                                            <input class="form-input" type="text" name="input-example-1" placeholder="Name" value="Order coffee beans">
+                                        </div>
+                                        <p class="process__Description">Submit Amazon order for 2kg Lavazza qualita rossa</p>
+                                        <section class="process__progress">
+                                            <button class="btn s-circle showProgressDetail">
+                                                    <svg viewBox="0 0 32 32" width="2rem" height="2rem" aria-labelled-by="view-icon-title"><title id="view-icon-title">View progress detail</title><defs><path d="M8 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0-7C4.9 3 2.6 4.6 1 8c1.6 3.4 3.9 5 7 5s5.4-1.6 7-5C13.3 4.6 11 3 8 3zm0-2c4.1 0 7.1 2.3 9 6.6v.8C15 12.7 12 15 8 15S.9 12.7-1 8.4v-.8C1 3.3 4 1 8 1z" id="a4"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#005285" cx="16" cy="16" r="15.5"/><use fill="#0B75B7" xlink:href="#a4" transform="translate(8 8)"/></g></svg>
+                                            </button>
+                                            
+                                            <div class="process__progressBar">
+                                                <label for="processProgress">Progress: </label>
+                                                <progress id="processProgress"  max="100" value="70">70%</progress>
+                                            </div>
+                                        </section>
+                                        <ul class="process__progressDetails">
+                                                <li>Tasks in queue : <span class="progressItem">6</span></li>
+                                                <li>Tasks completed : <span class="progressItem">18</span></li>
+                                                <li>Average task time : <span class="progressItem">12s</span></li>
+                                                <li>Time remaining : <span class="progressItem">01:12</span></li>
+                                            </ul>
+                            </section>
+                            <section class="processStatus">
+                                <p class="processStatus__label">Workers Assigned</p>
+                                <div class="processStatus__workersControls">
+                                        <button class="btn btn-sm s-circle">-</button>
+                                        <span class="assignedWorkers">0</span>/<span class="totalWorkers">25</span>
+                                        <button class="btn btn-sm s-circle">+</button>
+                                </div>
+                                <div class="processStatus__priority">
+                                    <ol class="processPriority">
+                                        <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                        <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                        <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                    </ol>
+                                </div>
+                                <div class="processStatus__status unassigned">
+                                    <div class="popover popover-bottom">
+                                    <button 
+                                    class="btn btn-md m-circle" 
+                                    type="button" 
+                                    aria-label="assign workers to process"
+                                    aria-haspopup="true"
+                                    >
+                                    <svg width="16" height="16"viewBox="0 0 32 32" aria-labelled-by="settings-icon-title"><title id="settings-icon-title">settings</title><defs><path d="M20.8 8.4l1.6-1.6a1 1 0 0 1 1.4 0l1.4 1.4c.4.4.4 1 0 1.4l-1.6 1.6a9 9 0 0 1 1.2 2.8H27c.6 0 1 .4 1 1v2c0 .6-.4 1-1 1h-2.2a9 9 0 0 1-1.2 2.8l1.6 1.6c.4.4.4 1 0 1.4l-1.4 1.4a1 1 0 0 1-1.4 0l-1.6-1.6a9 9 0 0 1-2.8 1.2V27c0 .6-.4 1-1 1h-2a1 1 0 0 1-1-1v-2.2a9 9 0 0 1-2.8-1.2l-1.6 1.6a1 1 0 0 1-1.4 0l-1.4-1.4a1 1 0 0 1 0-1.4l1.6-1.6A9 9 0 0 1 7.2 18H5a1 1 0 0 1-1-1v-2c0-.6.4-1 1-1h2.2c.3-1 .6-2 1.2-2.8L6.8 9.6a1 1 0 0 1 0-1.4l1.4-1.4a1 1 0 0 1 1.4 0l1.6 1.6A9 9 0 0 1 14 7.2V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v2.2c1 .3 2 .6 2.8 1.2zM16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" id="a"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#ffffff" cx="16" cy="16" r="15.5"/><use fill="#ffffff" xlink:href="#a"/></g></svg>
+                                    </button>
+                                    <div class="assignmentListPopover c-hand popover-container ">
+                                            <ul>
+                                                <li>Auto-assign</li>
+                                                <li>Select Workers</li>
+                                                <li>Schedule</li>
+                                                <li>Archive</li>
+                                            </ul>
+                                        </div>&nbsp;<span>Unassigned</span>
+                                    </div>
+                                </div>
+                            </section>
+                            <button class="btn s-circle process__Action">
+                                <svg viewBox="0 0 32 32" role="img" aria-labelled-by="play-icon-title"><title id="play-icon-title">Start Process</title><g fill="none" fill-rule="evenodd"><path d="M22.32 15.18L13.57 9.092a1 1 0 0 0-1.571.82v12.173a1 1 0 0 0 1.571.821l8.749-6.086a1 1 0 0 0 0-1.642z" fill="#434a4f"/><circle stroke="#434a4f" cx="16" cy="16" r="15.5"/></g></svg>
+                            </button>
+                            
+                        </li>            
+                            
+            
+                                    
+                                    <li class="process">
+                                        <section class="process__Details">
+                                                <div class="form-group">
+                                                        <label class="form-label" for="input-example-1">Name</label>
+                                                        <input class="form-input" type="text" name="input-example-1" placeholder="Name" value="Order coffee beans">
+                                                    </div>
+                                                    <p class="process__Description">Submit Amazon order for 2kg Lavazza qualita rossa</p>
+                                                    <section class="process__progress">
+                                                        <button class="btn s-circle showProgressDetail">
+                                                                <svg viewBox="0 0 32 32" width="2rem" height="2rem" aria-labelled-by="view-icon-title"><title id="view-icon-title">View progress detail</title><defs><path d="M8 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0-7C4.9 3 2.6 4.6 1 8c1.6 3.4 3.9 5 7 5s5.4-1.6 7-5C13.3 4.6 11 3 8 3zm0-2c4.1 0 7.1 2.3 9 6.6v.8C15 12.7 12 15 8 15S.9 12.7-1 8.4v-.8C1 3.3 4 1 8 1z" id="a4"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#005285" cx="16" cy="16" r="15.5"/><use fill="#0B75B7" xlink:href="#a4" transform="translate(8 8)"/></g></svg>
+                                                        </button>
+                                                        
+                                                        <div class="process__progressBar">
+                                                            <label for="processProgress">Progress: </label>
+                                                            <progress id="processProgress"  max="100" value="70">70%</progress>
+                                                        </div>
+                                                    </section>
+                                                    <ul class="process__progressDetails">
+                                                            <li>Tasks in queue : <span class="progressItem">6</span></li>
+                                                            <li>Tasks completed : <span class="progressItem">18</span></li>
+                                                            <li>Average task time : <span class="progressItem">12s</span></li>
+                                                            <li>Time remaining : <span class="progressItem">01:12</span></li>
+                                                        </ul>
+                                        </section>
+                                        <section class="processStatus">
+                                            <p class="processStatus__label">Workers Assigned</p>
+                                            <div class="processStatus__workersControls">
+                                                    <button class="btn btn-sm s-circle">-</button>
+                                                    <span class="assignedWorkers">0</span>/<span class="totalWorkers">25</span>
+                                                    <button class="btn btn-sm s-circle">+</button>
+                                            </div>
+                                            <div class="processStatus__priority">
+                                                <ol class="processPriority">
+                                                    <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                    <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                    <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                </ol>
+                                            </div>
+                                            <div class="processStatus__status unassigned">
+                                                <div class="popover popover-bottom">
+                                                <button 
+                                                class="btn btn-md m-circle" 
+                                                type="button" 
+                                                aria-label="assign workers to process"
+                                                aria-haspopup="true"
+                                                >
+                                                <svg width="16" height="16"viewBox="0 0 32 32" aria-labelled-by="settings-icon-title"><title id="settings-icon-title">settings</title><defs><path d="M20.8 8.4l1.6-1.6a1 1 0 0 1 1.4 0l1.4 1.4c.4.4.4 1 0 1.4l-1.6 1.6a9 9 0 0 1 1.2 2.8H27c.6 0 1 .4 1 1v2c0 .6-.4 1-1 1h-2.2a9 9 0 0 1-1.2 2.8l1.6 1.6c.4.4.4 1 0 1.4l-1.4 1.4a1 1 0 0 1-1.4 0l-1.6-1.6a9 9 0 0 1-2.8 1.2V27c0 .6-.4 1-1 1h-2a1 1 0 0 1-1-1v-2.2a9 9 0 0 1-2.8-1.2l-1.6 1.6a1 1 0 0 1-1.4 0l-1.4-1.4a1 1 0 0 1 0-1.4l1.6-1.6A9 9 0 0 1 7.2 18H5a1 1 0 0 1-1-1v-2c0-.6.4-1 1-1h2.2c.3-1 .6-2 1.2-2.8L6.8 9.6a1 1 0 0 1 0-1.4l1.4-1.4a1 1 0 0 1 1.4 0l1.6 1.6A9 9 0 0 1 14 7.2V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v2.2c1 .3 2 .6 2.8 1.2zM16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" id="a"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#ffffff" cx="16" cy="16" r="15.5"/><use fill="#ffffff" xlink:href="#a"/></g></svg>
+                                                </button>
+                                                <div class="assignmentListPopover c-hand popover-container ">
+                                                        <ul>
+                                                            <li>Auto-assign</li>
+                                                            <li>Select Workers</li>
+                                                            <li>Schedule</li>
+                                                            <li>Archive</li>
+                                                        </ul>
+                                                    </div>&nbsp;<span>Unassigned</span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <button class="btn s-circle process__Action">
+                                            <svg viewBox="0 0 32 32" role="img" aria-labelled-by="play-icon-title"><title id="play-icon-title">Start Process</title><g fill="none" fill-rule="evenodd"><path d="M22.32 15.18L13.57 9.092a1 1 0 0 0-1.571.82v12.173a1 1 0 0 0 1.571.821l8.749-6.086a1 1 0 0 0 0-1.642z" fill="#434a4f"/><circle stroke="#434a4f" cx="16" cy="16" r="15.5"/></g></svg>
+                                        </button>
+                                        
+                                    </li>            
+                                        
+            
+                                                
+                                                <li class="process">
+                                                    <section class="process__Details">
+                                                            <div class="form-group">
+                                                                    <label class="form-label" for="input-example-1">Name</label>
+                                                                    <input class="form-input" type="text" name="input-example-1" placeholder="Name" value="Order coffee beans">
+                                                                </div>
+                                                                <p class="process__Description">Submit Amazon order for 2kg Lavazza qualita rossa</p>
+                                                                <section class="process__progress">
+                                                                    <button class="btn s-circle showProgressDetail">
+                                                                            <svg viewBox="0 0 32 32" width="2rem" height="2rem" aria-labelled-by="view-icon-title"><title id="view-icon-title">View progress detail</title><defs><path d="M8 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0-7C4.9 3 2.6 4.6 1 8c1.6 3.4 3.9 5 7 5s5.4-1.6 7-5C13.3 4.6 11 3 8 3zm0-2c4.1 0 7.1 2.3 9 6.6v.8C15 12.7 12 15 8 15S.9 12.7-1 8.4v-.8C1 3.3 4 1 8 1z" id="a4"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#005285" cx="16" cy="16" r="15.5"/><use fill="#0B75B7" xlink:href="#a4" transform="translate(8 8)"/></g></svg>
+                                                                    </button>
+                                                                    
+                                                                    <div class="process__progressBar">
+                                                                        <label for="processProgress">Progress: </label>
+                                                                        <progress id="processProgress"  max="100" value="70">70%</progress>
+                                                                    </div>
+                                                                </section>
+                                                                <ul class="process__progressDetails">
+                                                                        <li>Tasks in queue : <span class="progressItem">6</span></li>
+                                                                        <li>Tasks completed : <span class="progressItem">18</span></li>
+                                                                        <li>Average task time : <span class="progressItem">12s</span></li>
+                                                                        <li>Time remaining : <span class="progressItem">01:12</span></li>
+                                                                    </ul>
+                                                    </section>
+                                                    <section class="processStatus">
+                                                        <p class="processStatus__label">Workers Assigned</p>
+                                                        <div class="processStatus__workersControls">
+                                                                <button class="btn btn-sm s-circle">-</button>
+                                                                <span class="assignedWorkers">0</span>/<span class="totalWorkers">25</span>
+                                                                <button class="btn btn-sm s-circle">+</button>
+                                                        </div>
+                                                        <div class="processStatus__priority">
+                                                            <ol class="processPriority">
+                                                                <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                                <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                                <li><a href="#"><img src="/resources/img/low.svg" alt = "star" width="28px" height="28px"/></a></li>
+                                                            </ol>
+                                                        </div>
+                                                        <div class="processStatus__status unassigned">
+                                                            <div class="popover popover-bottom">
+                                                            <button 
+                                                            class="btn btn-md m-circle" 
+                                                            type="button" 
+                                                            aria-label="assign workers to process"
+                                                            aria-haspopup="true"
+                                                            >
+                                                            <svg width="16" height="16"viewBox="0 0 32 32" aria-labelled-by="settings-icon-title"><title id="settings-icon-title">settings</title><defs><path d="M20.8 8.4l1.6-1.6a1 1 0 0 1 1.4 0l1.4 1.4c.4.4.4 1 0 1.4l-1.6 1.6a9 9 0 0 1 1.2 2.8H27c.6 0 1 .4 1 1v2c0 .6-.4 1-1 1h-2.2a9 9 0 0 1-1.2 2.8l1.6 1.6c.4.4.4 1 0 1.4l-1.4 1.4a1 1 0 0 1-1.4 0l-1.6-1.6a9 9 0 0 1-2.8 1.2V27c0 .6-.4 1-1 1h-2a1 1 0 0 1-1-1v-2.2a9 9 0 0 1-2.8-1.2l-1.6 1.6a1 1 0 0 1-1.4 0l-1.4-1.4a1 1 0 0 1 0-1.4l1.6-1.6A9 9 0 0 1 7.2 18H5a1 1 0 0 1-1-1v-2c0-.6.4-1 1-1h2.2c.3-1 .6-2 1.2-2.8L6.8 9.6a1 1 0 0 1 0-1.4l1.4-1.4a1 1 0 0 1 1.4 0l1.6 1.6A9 9 0 0 1 14 7.2V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v2.2c1 .3 2 .6 2.8 1.2zM16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" id="a"/></defs><g fill="none" fill-rule="evenodd"><circle stroke="#ffffff" cx="16" cy="16" r="15.5"/><use fill="#ffffff" xlink:href="#a"/></g></svg>
+                                                            </button>
+                                                            <div class="assignmentListPopover c-hand popover-container ">
+                                                                    <ul>
+                                                                        <li>Auto-assign</li>
+                                                                        <li>Select Workers</li>
+                                                                        <li>Schedule</li>
+                                                                        <li>Archive</li>
+                                                                    </ul>
+                                                                </div>&nbsp;<span>Unassigned</span>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                    <button class="btn s-circle process__Action">
+                                                        <svg viewBox="0 0 32 32" role="img" aria-labelled-by="play-icon-title"><title id="play-icon-title">Start Process</title><g fill="none" fill-rule="evenodd"><path d="M22.32 15.18L13.57 9.092a1 1 0 0 0-1.571.82v12.173a1 1 0 0 0 1.571.821l8.749-6.086a1 1 0 0 0 0-1.642z" fill="#434a4f"/><circle stroke="#434a4f" cx="16" cy="16" r="15.5"/></g></svg>
+                                                    </button>
+                                                    
+                                                </li>            
+                                                    
+        </ul>
+    </section>
+    </div>
+</body>
+</html>

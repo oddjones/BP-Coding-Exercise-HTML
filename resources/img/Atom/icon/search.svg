@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Atom/icon/search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.2861373,19.9528497 C22.2875864,19.954265 22.2890336,19.9556835 22.2904789,19.9571052 L29.3480898,26.8997364 C29.997725,27.538788 30.0063047,28.5834749 29.3672531,29.2331101 C28.7282015,29.8827452 27.6835146,29.8913249 27.0338794,29.2522734 L19.9762685,22.3096422 C19.9683654,22.3018679 19.9605573,22.2940336 19.952844,22.2861407 C18.9702254,22.8667944 17.8240249,23.2 16.6,23.2 C12.9549207,23.2 10,20.2450793 10,16.6 C10,12.9549207 12.9549207,10 16.6,10 C20.2450793,10 23.2,12.9549207 23.2,16.6 C23.2,17.8240272 22.8667931,18.9702298 22.2861373,19.9528497 Z M16.6,21 C19.0300529,21 21,19.0300529 21,16.6 C21,14.1699471 19.0300529,12.2 16.6,12.2 C14.1699471,12.2 12.2,14.1699471 12.2,16.6 C12.2,19.0300529 14.1699471,21 16.6,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Molecule/search-bar" transform="translate(-10.000000, -14.000000)">
+            <g id="atom/icon/search" transform="translate(0.000000, 4.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                <g id="Colour/@prism-dark" mask="url(#mask-2)" fill="#005285" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

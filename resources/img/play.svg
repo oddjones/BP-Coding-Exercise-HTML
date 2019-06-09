@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22.3199488,15.1790948 L13.5710645,9.09291443 C13.1176911,8.77752422 12.494485,8.88938172 12.1790948,9.34275514 C12.062498,9.51036303 12,9.70964515 12,9.91381963 L12,22.0861804 C12,22.6384651 12.4477153,23.0861804 13,23.0861804 C13.2041745,23.0861804 13.4034566,23.0236824 13.5710645,22.9070856 L22.3199488,16.8209052 C22.7733222,16.505515 22.8851797,15.8823089 22.5697895,15.4289355 C22.5019986,15.3314862 22.4173981,15.2468856 22.3199488,15.1790948 Z" fill="#0B75B7"></path>
+        <circle id="button-outer" stroke="#005285" cx="16" cy="16" r="15.5"></circle>
+    </g>
+</svg>

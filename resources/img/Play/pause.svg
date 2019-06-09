@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="36px" viewBox="0 0 37 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Play/pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18" cy="18" r="18"></circle>
+        <polygon id="path-3" points="18.18 11.52 25.56 24.48 10.8 24.48"></polygon>
+        <path d="M18,36 C8.0588745,36 0,27.9411255 0,18 C0,8.0588745 8.0588745,0 18,0 C27.9411255,0 36,8.0588745 36,18 C36,27.9411255 27.9411255,36 18,36 Z M18,35.027027 C27.4037674,35.027027 35.027027,27.4037674 35.027027,18 C35.027027,8.59623264 27.4037674,0.972972973 18,0.972972973 C8.59623264,0.972972973 0.972972973,8.59623264 0.972972973,18 C0.972972973,27.4037674 8.59623264,35.027027 18,35.027027 Z" id="path-5"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organism/task-card" transform="translate(-534.000000, -46.000000)">
+            <g id="atom/button/circular" transform="translate(534.500000, 46.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Background"></g>
+                <g id="Colour/@prism-paper" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+                </g>
+                <g id="atom/icon/play" mask="url(#mask-2)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Triangle" fill="#D8D8D8" fill-rule="evenodd" transform="translate(18.180000, 18.000000) rotate(90.144750) translate(-18.180000, -18.000000) " xlink:href="#path-3"></use>
+                    <g id="Colour/@prism-charcoal" mask="url(#mask-4)" fill="#434A50" fill-rule="evenodd">
+                        <rect id="Rectangle-Copy" x="0" y="0" width="36" height="36"></rect>
+                    </g>
+                </g>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Background" fill="#979797" fill-rule="nonzero" xlink:href="#path-5"></use>
+                <g id="Colour/@prism-charcoal" mask="url(#mask-6)" fill="#434A50" fill-rule="evenodd">
+                    <rect id="Rectangle-Copy" x="0" y="0" width="36" height="36"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

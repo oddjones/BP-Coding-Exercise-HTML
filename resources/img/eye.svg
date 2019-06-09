@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,18 C14.8954305,18 14,17.1045695 14,16 C14,14.8954305 14.8954305,14 16,14 C17.1045695,14 18,14.8954305 18,16 C18,17.1045695 17.1045695,18 16,18 Z M16,9 C20.1139419,9 23.130352,11.2623076 24.9246564,15.6191974 L25.081477,15.9999857 L24.9246665,16.3807781 C23.1304903,20.7376845 20.1140696,23 16,23 C11.8859304,23 8.86950973,20.7376845 7.07533355,16.3807781 L6.91852305,15.9999857 L7.07534364,15.6191974 C8.86964797,11.2623076 11.8860581,9 16,9 Z M16,11 C12.8575867,11 10.5906886,12.6165082 9.08753347,16.0000139 C10.5905807,19.3835008 12.8574724,21 16,21 C19.1425276,21 21.4094193,19.3835008 22.9124665,16.0000139 C21.4093114,12.6165082 19.1424133,11 16,11 Z" id="path-1"></path>
+    </defs>
+    <g id="eye" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="button-outer" stroke="#005285" cx="16" cy="16" r="15.5"></circle>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="icon-colour" fill="#0B75B7" xlink:href="#path-1"></use>
+    </g>
+</svg>

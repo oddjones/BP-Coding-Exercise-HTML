@@ -1,0 +1,217 @@
+html {
+  font-size: 16px; }
+
+.assignmentListPopover {
+  padding: 0px;
+  background: white;
+  width: 12rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #005285;
+  border-radius: .5rem;
+  z-index: 200; }
+  .assignmentListPopover ul {
+    color: #434a4f;
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+    .assignmentListPopover ul li {
+      margin: 0rem;
+      color: #0B75B7; }
+      .assignmentListPopover ul li:not(:last-child) {
+        border-bottom: 1px solid #005285; }
+      .assignmentListPopover ul li:first-child {
+        border-radius: .5rem .5rem 0 0; }
+      .assignmentListPopover ul li:last-child {
+        border-radius: 0 0 .5rem .5rem; }
+      .assignmentListPopover ul li:focus, .assignmentListPopover ul li:hover {
+        background: #0B75B7;
+        color: white; }
+
+.btn.s-circle {
+  width: 2rem;
+  height: 2rem;
+  border: 0px solid #0B75B7;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px; }
+  .btn.s-circle svg {
+    display: block;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+    margin: 0px !important; }
+
+.btn.m-circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border: 0px; }
+  .btn.m-circle svg {
+    display: block;
+    margin: auto;
+    width: 1rem;
+    height: 1rem;
+    margin: 0px !important; }
+
+.btn-sm.s-circle {
+  width: 1rem;
+  height: 1rem;
+  padding: 0px;
+  line-height: .7rem;
+  border: 1px solid #0B75B7; }
+
+header.navbar {
+  height: 7rem;
+  border-bottom: 1px solid #005285;
+  margin-top: 10px;
+  padding-bottom: 10px; }
+
+.navbar__searchform {
+  margin-top: 2rem; }
+
+.navbar__searchicon {
+  text-indent: -9999px;
+  position: relative; }
+  .navbar__searchicon svg {
+    display: block; }
+
+.processList {
+  list-style: none; }
+
+li.process {
+  position: relative;
+  border-radius: 1em 1em 2em 1rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: 0px solid #D4D4D4;
+  min-height: 8rem;
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: stretch; }
+  li.process label {
+    color: #434a4f;
+    size: .9rem;
+    padding-bottom: 0rem; }
+  li.process input {
+    font-size: 1.1rem;
+    padding: 1px;
+    line-height: 1.2rem; }
+  li.process .process__Details {
+    flex: 1 0;
+    padding-left: .6rem; }
+  li.process .process__Description {
+    margin-bottom: .5rem; }
+  li.process .process__progress {
+    margin-bottom: 4px; }
+  li.process .process__Action {
+    position: absolute;
+    right: 10rem;
+    top: 35%; }
+
+.processStatus {
+  text-align: center;
+  flex: 0 0 11rem;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 0em 1em 2em 0rem;
+  border-left: 1px solid #D4D4D4; }
+
+.processStatus__label {
+  order: 1;
+  font-size: 1rem;
+  width: 100%;
+  display: block;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  color: #434a4f;
+  margin-bottom: 0px; }
+
+.processStatus__workersControls {
+  height: 2rem;
+  order: 2;
+  align-items: flex-start;
+  font-size: 1.4rem; }
+  .processStatus__workersControls span {
+    font-weight: bold; }
+    .processStatus__workersControls span.assignedWorkers {
+      margin-left: .6rem; }
+    .processStatus__workersControls span.totalWorkers {
+      margin-right: .6rem; }
+
+.processStatus__priority {
+  order: 3;
+  margin-bottom: 4px; }
+  .processStatus__priority ol.processPriority {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    .processStatus__priority ol.processPriority li {
+      display: inline-block;
+      width: 2rem;
+      height: 2rem; }
+      .processStatus__priority ol.processPriority li a {
+        display: block;
+        width: 28px;
+        height: 28px; }
+
+.processStatus__status {
+  order: 4;
+  height: 1.6rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0px 0px 2em 0px; }
+  .processStatus__status.unassigned {
+    background-color: #005285; }
+
+.process__progress {
+  display: flex;
+  flex-direction: row; }
+
+.process__progressBar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem; }
+  .process__progressBar label {
+    order: 1; }
+  .process__progressBar progress {
+    order: 2; }
+
+.process__progressDetails {
+  display: flex;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .process__progressDetails li {
+    display: block;
+    width: 50%; }
+
+.svg-icon {
+  /* Place the icon on the text baseline. */
+  position: relative;
+  top: .125rem;
+  /* Prevent the icon from shrinking inside a flex container. */
+  flex-shrink: 0;
+  /* Scale the icon to match the font-size of the parent element. */
+  height: 1rem;
+  width: 1rem;
+  /* Let the icon take whatever color the parent has. */
+  fill: currentColor;
+  /*
+     * If the icon is used on a link, which has a color transition,
+     * we can also use a transition on the fill value.
+    */
+  transition: fill .3s; }
+
+@media (max-width: 970px) {
+  header.navbar section:first-child {
+    padding-left: 10px; }
+  header.navbar section:last-child {
+    padding-right: 10px; } }
+
+@media (max-width: 500px) {
+  .process__progressDetails li {
+    width: 90%; } }

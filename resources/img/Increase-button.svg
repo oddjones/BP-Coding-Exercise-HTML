@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Increase-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="5" cy="5" r="5"></circle>
+        <path d="M5.45288192,4.55348882 L7.08154612,4.54700383 C7.3116506,4.5460876 7.49892989,4.73188139 7.49984612,4.96198587 C7.50076234,5.19209036 7.31496855,5.37936964 7.08486407,5.38028587 L5.45288192,5.38678407 L5.45288192,7.08308754 C5.45288192,7.31319385 5.2663439,7.49973187 5.0362376,7.49973187 C4.80613129,7.49973187 4.61959328,7.31319385 4.61959328,7.08308754 L4.61959328,5.39010205 L2.91845388,5.39687562 C2.6883494,5.39779185 2.50107011,5.21199806 2.50015388,4.98189358 C2.49923766,4.7517891 2.68503145,4.56450981 2.91513593,4.56359358 L4.61959328,4.5568068 L4.61959328,2.91664432 C4.61959328,2.68653802 4.80613129,2.5 5.0362376,2.5 C5.2663439,2.5 5.45288192,2.68653802 5.45288192,2.91664432 L5.45288192,4.55348882 Z" id="path-3"></path>
+        <path d="M5,10 C2.23857625,10 0,7.76142375 0,5 C0,2.23857625 2.23857625,0 5,0 C7.76142375,0 10,2.23857625 10,5 C10,7.76142375 7.76142375,10 5,10 Z M5,9.72972973 C7.6121576,9.72972973 9.72972973,7.6121576 9.72972973,5 C9.72972973,2.3878424 7.6121576,0.27027027 5,0.27027027 C2.3878424,0.27027027 0.27027027,2.3878424 0.27027027,5 C0.27027027,7.6121576 2.3878424,9.72972973 5,9.72972973 Z" id="path-5"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Molecule/indicator/status" transform="translate(-130.000000, -35.000000)">
+            <g id="atom/button/circular" transform="translate(130.000000, 35.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Background"></g>
+                <g id="Colour/@prism-paper" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="10" height="10"></rect>
+                </g>
+                <g id="atom/icon/plus" mask="url(#mask-2)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="plus-symbol"></g>
+                    <g id="Colour/@prism-prime" mask="url(#mask-4)" fill="#0C75B7" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                </g>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Background" fill="#979797" fill-rule="nonzero" xlink:href="#path-5"></use>
+                <g id="Colour/@prism-dark" mask="url(#mask-6)" fill="#005285" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="10" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

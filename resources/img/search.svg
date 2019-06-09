@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,10 C8.209139,10 10,8.209139 10,6 C10,3.790861 8.209139,2 6,2 C3.790861,2 2,3.790861 2,6 C2,8.209139 3.790861,10 6,10 Z M6,12 C2.6862915,12 0,9.3137085 0,6 C0,2.6862915 2.6862915,0 6,0 C9.3137085,0 12,2.6862915 12,6 C12,9.3137085 9.3137085,12 6,12 Z M10.7071068,10.7071068 C11.0976311,10.3165825 11.7307961,10.3165825 12.1213203,10.7071068 L14.9497475,13.5355339 C15.3402718,13.9260582 15.3402718,14.5592232 14.9497475,14.9497475 C14.5592232,15.3402718 13.9260582,15.3402718 13.5355339,14.9497475 L10.7071068,12.1213203 C10.3165825,11.7307961 10.3165825,11.0976311 10.7071068,10.7071068 Z" id="path-1"></path>
+    </defs>
+    <g id="search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="button-outer" stroke="#005285" cx="16" cy="16" r="15.5"></circle>
+        <g id="atom/icon/magnifying-glass" transform="translate(8.000000, 8.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-colour" fill="#0B75B7" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
