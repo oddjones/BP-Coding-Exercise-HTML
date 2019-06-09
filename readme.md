@@ -9,7 +9,7 @@ Rather than plunge straight into REACT I decided to work on the HTML & CSS of th
 1. Ensure the site is responsive
 2. Ensure the site is accessible
 3. Make use of semantic HTML 5 elements
-4. Construct a sensible SASS heirarchy implementing [BEM](https://getbem) 
+4. Construct a sensible SASS heirarchy implementing [BEM](https://getbem.com) 
 
 It should be noted that I did not intend to make the HTML/CSS version render *_perfectly_* There are validation errors and I chose not to implement *all* the functionality here - it was really more about getting the responsive/semantic/accessible features down.
 
